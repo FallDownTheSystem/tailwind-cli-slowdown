@@ -1,0 +1,11 @@
+{
+	"name": "npm",
+	"version": "1.0.0",
+	"scripts": {
+		"watch": "tailwindcss -c ./tailwind.config.js -i ./css/input.css -o ./dist/output.css -w"
+	},
+	"author": "FallDownTheSystem",
+	"devDependencies": {
+		"tailwindcss": "^3.0.22"
+	}
+}
